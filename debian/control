@@ -1,0 +1,15 @@
+Source: libcanopen
+Section: universe/net
+Priority: optional
+Maintainer: Alex Bencz <abencz@clearpathrobotics.com>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, automake1.11
+Standards-Version: 3.9.4
+Homepage: https://github.com/rscada/libcanopen
+Vcs-Git: https://github.com/rscada/libcanopen.git
+
+Package: libcanopen
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Scripts for talking to CANopen devices over socketcan
+ Collection of scripts for communicating to a CANopen device over a socketcan
+ interface. Supported CANopen protocols include PDO, SDO, and NMT.

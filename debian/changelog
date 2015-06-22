@@ -1,0 +1,5 @@
+libcanopen (1.0.0-1) trusty; urgency=low
+
+  * Initial release
+
+ -- Alex Bencz <abencz@clearpathrobotics.com>  Mon, 22 Jun 2015 13:47:41 -0400
