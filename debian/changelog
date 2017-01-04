@@ -1,3 +1,9 @@
+libcanopen (1.0.1-1) trusty; urgency=low
+
+  * Bug fixes from upstream
+
+ -- Alex Bencz <abencz@clearpathrobotics.com>  Mon, 22 Jun 2015 13:47:41 -0400
+
 libcanopen (1.0.0-1) trusty; urgency=low
 
   * Initial release
